@@ -1,0 +1,35 @@
+nav {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 64px;
+    top: 0;
+    position: fixed;
+    border-bottom: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff2f;
+}
+
+#navLinks {
+    display: flex;
+    gap: 16px;
+    a {
+        text-decoration: none;
+        color: #4D4D4D;
+        font-weight: 500;
+    }
+}
+
+#navButton {
+    color: #FFFFFF;
+    background-color: #138E03;
+    padding: 0 64px;
+    border-radius: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}

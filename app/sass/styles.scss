@@ -1,0 +1,26 @@
+// sass --watch app/sass/styles.scss app/styles.css
+
+@use 'components/navBar';
+@use 'sections/header';
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url('/fonts/Montserrat.ttf') format('truetype');
+  font-display: block;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 300;
+  src: url('/fonts/Montserrat.ttf') format('truetype');
+  font-display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}

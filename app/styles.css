@@ -1,0 +1,110 @@
+nav {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 64px;
+  top: 0;
+  position: fixed;
+  border-bottom: 1px solid #FFFFFF;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.1843137255);
+}
+
+#navLinks {
+  display: flex;
+  gap: 16px;
+}
+#navLinks a {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-weight: 500;
+}
+
+#navButton {
+  color: #FFFFFF;
+  background-color: #138E03;
+  padding: 0 64px;
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/sections/header/headerbg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+header article {
+  margin-left: 7vw;
+  width: 540px;
+  height: 488px;
+  border-radius: 24px;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(10px);
+  padding: 24px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+header article h1 {
+  font-size: 48px;
+}
+header article form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+header article form input {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-weight: 300;
+  width: 100%;
+}
+header article form button {
+  color: #FFFFFF;
+  background-color: #138E03;
+  width: 240px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("/fonts/Montserrat.ttf") format("truetype");
+  font-display: block;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 300;
+  src: url("/fonts/Montserrat.ttf") format("truetype");
+  font-display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=styles.css.map */
