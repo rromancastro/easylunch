@@ -2,18 +2,36 @@
 
 @use 'components/navBar';
 @use 'sections/header';
+@use 'sections/secondSection';
+@use 'sections/thirdSection';
+@use 'sections/fourthSection';
+@use 'sections/fifthSection';
+
+
 
 @font-face {
   font-family: "Montserrat";
   font-weight: 500;
   src: url('/fonts/Montserrat.ttf') format('truetype');
-  font-display: block;
+  font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
   font-weight: 300;
   src: url('/fonts/Montserrat.ttf') format('truetype');
-  font-display: block;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url('/fonts/Montserrat.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 200;
+  src: url('/fonts/Montserrat.ttf') format('truetype');
+  font-display: swap;
 }
 
 * {
@@ -21,6 +39,11 @@
   padding: 0;
   box-sizing: border-box;
   position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, div, button, form, input, textarea, li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  line-height: 1;
+  color: #1E1E1E;
 }

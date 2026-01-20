@@ -7,9 +7,10 @@ nav {
     padding: 0 64px;
     top: 0;
     position: fixed;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #ffffff96;
     backdrop-filter: blur(10px);
     background-color: #ffffff2f;
+    z-index: 100;
 }
 
 #navLinks {
