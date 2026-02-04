@@ -2,7 +2,9 @@
     width: 100%;
     height: auto;
     padding: 120px;
-    background-image: url('/sections/fifthSectionBg.png');
+    background-image: 
+        linear-gradient(129.27deg, rgba(30, 30, 30, 0) 11.7%, #1e1e1ed7 69.51%),
+        url('/sections/fifthSectionBg.png');
     background-size: cover;
     background-position: center;
     article {
@@ -24,6 +26,7 @@
             display: flex;
             flex-direction: column;
             gap: 28px;
+            padding-right: 100px;
             span {
                 color: #ffffff;
             }

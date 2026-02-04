@@ -1,5 +1,4 @@
-import { FourthSection, Header, SecondSection, ThirdSection } from "./sections";
-import { FifthSection } from "./sections/FifthSection";
+import { FifthSection, FourthSection, Header, SecondSection, SeventhSection, SixthSection, ThirdSection } from "./sections";
 
 export default function Home() {
   return (<>
@@ -8,5 +7,7 @@ export default function Home() {
     <ThirdSection />
     <FourthSection />
     <FifthSection />
+    <SixthSection />
+    <SeventhSection />
   </>)
 }
