@@ -7,9 +7,10 @@ nav {
     padding: 0 64px;
     top: 0;
     position: fixed;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #ffffff96;
     backdrop-filter: blur(10px);
-    background-color: #ffffff2f;
+    background: linear-gradient(0deg, #ffffff2a 5%, #ffffff00 30%, #ffffff00 70%, #ffffff2a 95%);
+    z-index: 100;
 }
 
 #navLinks {
@@ -32,4 +33,8 @@ nav {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+#navLogo {
+    cursor: pointer;
 }

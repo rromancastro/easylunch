@@ -1,0 +1,35 @@
+#fifthSection {
+    width: 100%;
+    height: auto;
+    padding: 120px;
+    background-image: 
+        linear-gradient(129.27deg, rgba(30, 30, 30, 0) 11.7%, #1e1e1ed7 69.51%),
+        url('/sections/fifthSectionBg.png');
+    background-size: cover;
+    background-position: center;
+    article {
+        width: 100%;
+        height: 288px;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ffffff31;
+        backdrop-filter: blur(10px);
+        h2 {
+            width: 100%;
+            text-align: center;
+            color: #ffffff;
+            font-size: 48px;
+            font-weight: 500;
+        }
+        p {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            padding-right: 100px;
+            span {
+                color: #ffffff;
+            }
+        }
+    }
+}
