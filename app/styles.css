@@ -497,6 +497,58 @@ header article form button {
   object-fit: contain;
 }
 
+#appSecondSection {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+}
+#appSecondSection div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+#appSecondSection div h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+#appSecondSection div p {
+  font-weight: 400;
+}
+#appSecondSection div .appSecondSectionImage {
+  height: 134px;
+  width: 124px;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.appThirdSectionImage {
+  position: absolute;
+  bottom: -30;
+  max-width: 40%;
+  object-fit: contain;
+  height: 550px;
+}
+
+#appThirdSectionImage1 {
+  right: 8%;
+}
+
+#appThirdSectionImage2 {
+  left: 8%;
+}
+
+#appThirdSectionImage3 {
+  right: 8%;
+}
+
+#appThirdSectionImage4 {
+  left: 8%;
+}
+
 @font-face {
   font-family: "Montserrat";
   font-weight: 500;

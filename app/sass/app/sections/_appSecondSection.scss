@@ -1,0 +1,27 @@
+#appSecondSection {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        h3 {
+            font-size: 40px;
+            font-weight: 400;
+        }
+        p {
+            font-weight: 400;
+        }
+        .appSecondSectionImage {
+            height: 134px;
+            width: 124px;
+            padding: 10px;
+            object-fit: contain;
+        }
+    }
+}
