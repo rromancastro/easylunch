@@ -1,11 +1,12 @@
-import { AppThirdSectionCard } from "../components"
+import { AppThirdSectionCard } from "@/app/components/app"
+
 
 export const AppThirdSection = () => {
     return <section id="fourthSection">
         <div id="fourthSectionTitle">
             <h2>Así de facil</h2>
         </div>
-        <AppThirdSectionCard 
+        <AppThirdSectionCard
             number={1}
             title={"Ingresá a la app"}
             description={"Podés ingresar desde tu teléfono o tu computadora, sin descargas desde tu navegador."}
